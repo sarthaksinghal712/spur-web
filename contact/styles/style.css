@@ -1,0 +1,70 @@
+*
+{
+    font-family: Poppins;
+}
+
+.t-heading
+{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.t-subheading
+{
+    font-weight: 600;
+    color:#AEAEB2;
+    font-size: 0.9em;
+}
+
+#leftSide
+{
+    width: 40%;
+}
+
+#RightSide
+{
+    width: 60%;
+}
+
+#contactTextCard{
+    background-color: #6DCA91;
+    color: white;
+}
+
+input[type="text"]
+{
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid #DADADA!important;
+}
+
+textarea
+{
+    border: none!important;
+    border-radius: 0%!important;
+    border-bottom: 1px solid #DADADA!important;
+}
+
+input:focus
+{
+    box-shadow: none;
+    outline: none!important;
+}
+
+#submitBtn
+{
+    background-color: #6DCA91;
+    border-radius: 8.6px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+body
+{
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
