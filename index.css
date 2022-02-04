@@ -1,0 +1,87 @@
+body {
+  font-family: Poppins !important;
+  overflow-x: hidden;
+}
+
+#menu {
+  background-color: #f6fbf8;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  height: 6.5em;
+  width: 100%;
+}
+
+.menuItem {
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.active {
+  color: #6dca91;
+}
+
+@media screen and (max-width: 992px) {
+  #menuItemHolder {
+    display: none !important;
+  }
+  #mobNavIcon {
+    display: block !important;
+  }
+}
+
+#intro-div {
+  width: 100vw;
+  margin-top: 6.5em;
+  height: calc(100vh - 6.5em);
+  background-color: #f6fbf8;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+#alterImage {
+  width: 75%;
+}
+
+.top-border-blue {
+  border-top: 2.5px solid #52a6d2;
+}
+
+.image {
+  width: 20em;
+}
+
+.img-holder {
+  padding: 2em;
+  text-align: center;
+}
+
+.highlight-subs {
+  line-height: 1.5em;
+  font-weight: bold;
+  padding-top: 4em;
+  padding-right: 4em;
+  padding-bottom: 0em;
+  padding-left: 4em;
+}
+
+.highlight-sub-description {
+  padding-top: 0em;
+  padding-right: 4em;
+  padding-bottom: 0em;
+  padding-left: 5em;
+}
+
+
+#banner {
+  background-color: #6DCA91;
+  width: 100vw;
+}
+
+#emailID{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}

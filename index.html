@@ -8,19 +8,56 @@
     <link rel="shortcut icon" href="static/logo.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
-
+    <link rel="stylesheet" href="./index.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+
+    <div id="menu" class="container-fluid p-4">
+        <div class="row">
+            <div id="logo" class="col-sm-12 col-lg-5 d-flex" style="align-items: center;">
+                <img src="./static/logo.svg" alt="Spur">
+                <span class="p-3 font-weight-bold">Spur</span>
+                <img src="./static/menu.svg" alt="Menu" class="ml-auto d-none" id="mobNavIcon">
+            </div>
+            <div id="menuItemHolder" class="col-lg-7 d-flex" style="align-items: center; justify-content:flex-end">
+                <div class="p-lg-3 p-2"><span class="menuItem font-weight-bold active">Home</span></div>
+                <div class="p-lg-3 p-2"><span class="menuItem font-weight-bold">About</span></div>
+                <div class="p-lg-3 p-2"><span class="menuItem font-weight-bold">Features</span></div>
+                <div class="p-lg-3 p-2"><span class="menuItem font-weight-bold">Pricing</span></div>
+                <div class="p-lg-3 p-2"><span class="menuItem font-weight-bold">Teams</span></div>
+                <div class="p-lg-3 p-2"><span class="menuItem font-weight-bold">FAQ</span></div>
+                <div class="p-lg-3 p-2"><span class="menuItem font-weight-bold">Contact Us</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="intro-div" class="container-fluid d-flex">
+        <div class="row m-auto w-100 text-center d-flex" style="justify-content: center; align-items:center">
+            <div class="col-md-12 col-lg-6 p-0 m-0 text-center">
+                <h1 class="font-weight-bold py-1" style="overflow-y: hidden;">Shift from paper<br>
+                    <span style="color: #1dc765;">to digital receipts</span>
+                </h1>
+                <small class="text-muted">Lorem ipsum dolor sit amet, consectetuer<br>adipiscing elit. Aenean commodo
+                    ligula eget dolor.</small>
+            </div>
+            <div class="col-md-12 col-lg-6 p-0 m-0 order-md-last mt-5 mt-lg-0">
+                <img id="alterImage" src="./static/receiptbronew.svg" alt="Receipt Bro">
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- App Highlights -->
+
     <div class="content-heading p-3">
         <div class="text-center">
-            <h3 class="font-weight-bold pt-4">App Highlights</h3>
+            <h3 class="font-weight-bold p-4">App Highlights</h3>
             <small class="top-border-blue">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </small>
@@ -47,7 +84,7 @@
         </div>
         <div class="row pt-5">
             <div class="col-sm-6 img-holder order-md-last order-xs-first">
-                <img src="./static/2.svg" alt="1" class="image">
+                <img src="./static/2.svg" alt="2" class="image">
             </div>
             <div class="col-sm-6 description">
                 <h5 class="highlight-subs">
@@ -90,7 +127,7 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </small>
                 </h5>
-                
+
                 <p class="highlight-sub-description text-muted">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
                     massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.
@@ -98,8 +135,102 @@
             </div>
         </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <br>
+
+    <!-- Our Customers -->
+
+    <div class="content-heading p-3">
+        <div class="text-center">
+            <h3 class="font-weight-bold p-4">Our Customers</h3>
+            <small class="top-border-blue">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </small>
+        </div>
+    </div>
+    <p class="subtitle font-weight-bold mx-auto text-center text-muted w-50 p-3">
+        Lorem ipsum dolor sit amet. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+        magnis dis.
+    </p>
+    <div class="container p-3">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="./static/souvenir_shop.png" alt="Souvenir Shop">
+            </div>
+            <div class="col-md-4">
+                <img src="./static/souvenir_shop.png" alt="Souvenir Shop">
+            </div>
+            <div class="col-md-4">
+                <img src="./static/souvenir_shop.png" alt="Souvenir Shop">
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- What Customers Say -->
+    <div class="container-fluid" style="background-color: #f5f5f5;">
+        <div class="content-heading p-3">
+            <div class="text-center">
+                <h3 class="font-weight-bold p-4">What Customers Say</h3>
+                <small class="top-border-blue">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </small>
+            </div>
+        </div>
+        <p class="subtitle font-weight-bold mx-auto text-center text-muted w-50 p-3">
+            Lorem ipsum dolor sit amet. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+            magnis dis.
+        </p>
+        <div class="container p-5" id="testimonials">
+
+        </div>
+
+    </div>
+    <div id="banner" class="p-0 m-0">
+        <div class="container w-100 p-3 p-lg-0">
+            <div class="row px-lg-5">
+                <div class="col-md-6 col-12 p-5">
+                    <div class="text-white">
+                        <h3 class="font-weight-bold">
+                            Download Spur App
+                        </h3><br>
+                        <small class="text-justify">
+                            Lorem ipsum dolor sit amet,. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                            natoque penatibus et magnis dis.Lorem ipsum dolor sit amet,. Aenean commodo ligula eget
+                            dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.magnis dis.Lorem ipsum dolor
+                            sit amet,. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                            magnis dis.
+                        </small><br><br>
+                        <div class="d-flex mt-3">
+                            <button class="btn btn-dark text-white d-flex px-auto"
+                                style="align-items: center; justify-content: center">
+                                <i class="fa fa-google" aria-hidden="true"></i> &nbsp; Google Play
+                            </button>&nbsp;
+                            <button class="btn btn-dark text-white d-flex px-auto"
+                                style="align-items: center; justify-content: center">
+                                <i class="fa fa-apple" aria-hidden="true"></i> &nbsp; Apple Store
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-lg-block text-right px-5"><img src="./static/5.svg" class="w-75" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div id="footer d-flex" style="align-items: center; justify-content: center;">
+        <div class="content-heading p-3">
+            <div class="text-center">
+                <h3 class="font-weight-bold p-4">Subscribe Newsletter</h3>
+                <small class="text-muted font-weight-bold">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean.</small><br>
+                <br>
+                <div class="container p-3">
+                    <div class="row px-md-5 w-100 mx-auto">
+                        <div class="col-12 d-flex p-0 bg-light" style="align-items: center; justify-content: center;">
+                            <input type="email" name="email" id="emailID" class="p-md-2 w-100" placeholder="Enter Your Email"><button class="p-md-2 ml-auto" style="background-color: #6DCA91; color: white !important; border: none; font-size:small">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
