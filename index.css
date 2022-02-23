@@ -28,6 +28,9 @@ body {
   #mobNavIcon {
     display: block !important;
   }
+  #alterImage {
+    width: 75%;
+  }
 }
 
 #intro-div {
@@ -84,4 +87,10 @@ body {
   border: none;
   outline: none;
   background-color: transparent;
+}
+
+@media screen and (min-width: 1200px) {
+  #alterImage {
+    width: 65%;
+  }
 }
